@@ -1,0 +1,46 @@
+<?php 
+
+
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<input type="text" name="" id="s1" placeholder="search" onkeyup="return search()">
+	<div id="div1">
+		
+		<table>
+			
+<tr><th>Name</th>   <th>id</th>
+<tr>
+	<td>uio</td><td>123</td>
+</tr>
+
+		</table>
+
+
+	</div>
+	<script type="text/javascript">
+		
+
+function search(){
+			var search = document.getElementById("s1").value;
+			var xhttp = new XMLHttpRequest();	
+			
+			xhttp.onreadystatechange = function() {
+			    if (this.readyState == 4 && this.status == 200){
+			    	document.getElementById('div1').innerHTML = this.responseText;
+			    }
+			};
+			
+			xhttp.open("GET", "SearchSchedule.php?key="+search, true);
+			xhttp.send(); 
+		}
+
+	</script>
+</body>
+</html>

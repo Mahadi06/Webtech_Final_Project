@@ -1,0 +1,6 @@
+jack123|123456|male|mortuja78@gmail.com|12345678909|Jack|dermatology|2|MBBS
+jack123|123456|male|mortuja78@gmail.com|12345678909|Ahmed|neurology|4|
+mahadi112|mmmpmmmp06|male|atime691@gmail.com|01765757062|Mahadi Masnad|medicine|12|MBBS
+mahadi112|000000|male|atime691@gmail.com|01765757062|Mahadi Masnad|cardiology|1|MBBS
+mahadi112|000000|male|atime691@gmail.com|01765757062|Mahadi Masnad|nephrology|1|
+
